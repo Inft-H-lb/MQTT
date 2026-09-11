@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MQTT Test
+    </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./frames.css">
+    <link rel="stylesheet" href="./widgets.css">
+    <link rel="stylesheet" href="./harry-styles.css">
+
+    <script src="https://app.unpkg.com/mqtt@3.0.0/files/dist/mqtt.min.js"></script>
+    <script src="./script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Stick+No+Bills:wght@200..800&display=swap" rel="stylesheet">
+</head>
+<body class="font_1">
+   
+    <div class="frame">
+        <div class="center_frame cx50" id="entry_frame">
+            <div class="entry_pill glass" id="send_field">
+                <div class="center_y" id="pill_center_1">
+                    <div class="fat_border circle light_glass float_l">
+                        <div class="center_frame text_30">></div>
+                    </div>
+
+                    <div class="float_l entry_space" id="input_1_space">
+                        <input type="text" class="entry font_2 text_15" id="input_1">
+                    </div>
+
+                    <div class="button_space green_button float_r" id="send_button">
+                        <div class="center_frame button_text">SEND</div>
+                    </div>
+                </div>
+            </div>
+            <div class="entry_pill glass" id="receive_field">
+                <div class="center_y" id="pill_center_1">
+
+                    <div class="circle light_glass float_l">
+                        <div class="center_frame text_30">=</div>
+                    </div>
+
+                    <div class="entry_space float_l scroll_x" id="output_1_space">
+                        <div class="center_y">
+                            <div class="entry text_15 font_2" id="output_text">HOLA</div>
+                        </div>
+                        
+                    </div>
+
+                    <div class="button_space red_button float_r" id="receive_button">
+                        <div class="center_frame">
+                            <div class="button_text">LOAD</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

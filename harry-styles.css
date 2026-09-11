@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+#send_field{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+@media screen and (max-aspect-ratio: 1/1) {
+    #entry_frame{
+        width: 90% !important;
+    }
+}
+
+#pill_center_1,
+#pill_center_2{
+    width: calc(100% - 2vh);
+}
+
+@media screen and (max-height: 400px) {
+    #pill_center_1,
+    #pill_center_2{
+        width: calc(100% - 8px);
+    }
+}
+
+#input_1_pos{
+    position: relative;
+}
+
+#send_button,
+#receive_button{
+    width: 25% !important;
+}
+
+#input_1_space,
+#output_1_space{
+    width: calc(74% - 8vh);
+}
+
+@media screen and (max-height: 400px) {
+    #input_1_space,
+    #output_1_space{
+        width: calc(74% - 32px);
+    }
+}
+
+#output_1_space{
+    padding-left: 5px;
+    margin-right: 1%;
+}

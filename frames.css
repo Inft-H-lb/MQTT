@@ -1,0 +1,93 @@
+/*Alles zum Testen======================================================*/
+.test_red,
+.test_green,
+.test_orange,
+.test_blue{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: inherit;
+}
+
+.test_red{
+    border-color: red;
+}
+
+.test_green{
+    border-color: green;
+}
+
+.test_orange{
+    border-color: orange;
+}
+
+.test_blue{
+    border-color: blue;
+}
+
+.tst_obj{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(43, 183, 226);
+    margin: 10px;
+}
+
+/*Frames================================================================*/
+.frame,
+.scroll_x,
+.scroll_y,
+.scroll_xy{
+    width: 100%;
+    height: 100%;
+}
+
+.frame{
+    position: relative;
+}
+
+.scroll_x{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.scroll_y{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.scroll_xy{
+    overflow: scroll;
+}
+
+.scroll_x::-webkit-scrollbar,
+.scroll_y::-webkit-scrollbar,
+.scroll_xy::-webkit-scrollbar{
+  display: none;
+  width: 0%;
+}
+
+/*Center Klassen========================================================*/
+.center_frame,
+.center_x,
+.center_y{
+    position: absolute !important;
+    font-size: 0;
+    width: auto;
+    height: auto;
+}
+
+.center_frame{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center_x{
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.center_y{
+    top: 50%;
+    transform: translate(0, -50%);
+}
