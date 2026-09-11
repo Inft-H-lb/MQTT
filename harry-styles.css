@@ -18,6 +18,13 @@
     width: calc(100% - 2vh);
 }
 
+@media screen and (min-width: 500px) {
+    #pill_center_1,
+    #pill_center_2{
+        width: calc(100% - 10px);
+}
+}
+
 @media screen and (max-height: 400px) {
     #pill_center_1,
     #pill_center_2{
