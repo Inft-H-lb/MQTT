@@ -20,6 +20,11 @@ body{
     color: rgb(106, 177, 206);
 }
 
+button{
+    appearance: none;
+    border: none;
+}
+
 /*Fonts==================================================================================*/
 .font_1{
   font-family: "Stick No Bills", sans-serif;
