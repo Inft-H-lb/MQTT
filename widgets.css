@@ -123,32 +123,6 @@
         inset 0px -7px 7px rgba(142, 142, 60, 0.25);
 }
 
-.blue_button:hover::before,
-.red_button:hover::before,
-.green_button:hover::before,
-.yellow_button:hover::before
-{
-    background-color: rgba(0, 0, 0, 0.15)
-}
-
-.blue_button:hover,
-.red_button:hover,
-.green_button:hover,
-.yellow_button:hover
-{
-    .button_text{
-        color: rgb(192, 192, 192);
-    }
-}
-
-.blue_button:active,
-.red_button:active,
-.green_button:active,
-.yellow_button:active
-{
-    transform: scale(0.95);
-}
-
 /*Form für Elemente======================================================================*/
 .pill,
 .entry_pill{
