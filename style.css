@@ -21,8 +21,13 @@ body{
 }
 
 button{
-    appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-focus-ring-color: transparent;
+
+    outline: none;
     border: none;
+    appearance: none;
+    -webkit-appearance: none;
 }
 
 /*Fonts==================================================================================*/
