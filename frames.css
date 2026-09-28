@@ -1,30 +1,32 @@
-/*Alles zum Testen======================================================*/
+/* Alles zum Testen ==================================================== */
 .test_red,
 .test_green,
 .test_orange,
-.test_blue{
+.test_blue {
     border-style: solid;
     border-width: 1px;
+
+    -webkit-border-radius: inherit;
     border-radius: inherit;
 }
 
-.test_red{
+.test_red {
     border-color: red;
 }
 
-.test_green{
+.test_green {
     border-color: green;
 }
 
-.test_orange{
+.test_orange {
     border-color: orange;
 }
 
-.test_blue{
+.test_blue {
     border-color: blue;
 }
 
-.tst_obj{
+.tst_obj {
     position: relative;
     width: 100px;
     height: 100px;
@@ -32,62 +34,68 @@
     margin: 10px;
 }
 
-/*Frames================================================================*/
+/* Frames ============================================================= */
 .frame,
 .scroll_x,
 .scroll_y,
-.scroll_xy{
+.scroll_xy {
     width: 100%;
     height: 100%;
 }
 
-.frame{
+.frame {
     position: relative;
 }
 
-.scroll_x{
+.scroll_x {
     overflow-x: scroll;
     overflow-y: hidden;
 }
 
-.scroll_y{
+.scroll_y {
     overflow-x: hidden;
     overflow-y: scroll;
 }
 
-.scroll_xy{
+.scroll_xy {
     overflow: scroll;
 }
 
 .scroll_x::-webkit-scrollbar,
 .scroll_y::-webkit-scrollbar,
-.scroll_xy::-webkit-scrollbar{
-  display: none;
-  width: 0%;
+.scroll_xy::-webkit-scrollbar {
+    display: none;
+    width: 0%;
 }
 
-/*Center Klassen========================================================*/
+/* Center-Klassen ===================================================== */
 .center_frame,
 .center_x,
-.center_y{
+.center_y {
     position: absolute !important;
     font-size: 0;
     width: auto;
     height: auto;
 }
 
-.center_frame{
+.center_frame {
     top: 50%;
     left: 50%;
+
+    -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
 
-.center_x{
+.center_x {
     left: 50%;
+
+    -webkit-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
 }
 
-.center_y{
+.center_y {
     top: 50%;
+
+    -webkit-transform: translate(0, -50%);
     transform: translate(0, -50%);
 }
